@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+    <h1 class="title">ATM MACHINE</h1>
+    <hr>
+
+    <div id="main">
+        <h2>How Can I Help You?</h2>
+        <button onclick="deposite()">Deposit</button>
+        <button onclick="withdrawle()">Withdrawal</button>
+        <button onclick="Balance()">Balance</button>
+        <button onclick="restart()">Restart</button>
+        <p id="res"></p>
+    </div>
+
+    <!-- Deposit Screen -->
+    <div id="depo" style="display:none;">
+        <h3>Deposit Money</h3>
+        Enter Amount: <input type="number" id="d" placeholder="Amount">
+        <button onclick="done()">Done</button>
+    </div>
+
+    <!-- Withdrawal Screen -->
+    <div id="withdrawal" style="display:none;">
+        <h3>Withdraw Money</h3>
+        Enter Amount: <input type="number" id="w" placeholder="Withdrawal Amount">
+        <button onclick="withdr()">Withdraw</button>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>

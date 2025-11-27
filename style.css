@@ -1,0 +1,60 @@
+body {
+    font-family: Poppins, sans-serif;
+    background: #0f2027;
+    background: linear-gradient(135deg, #2c5364, #203a43, #0f2027);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+#main, #depo, #withdrawal {
+    background: #ffffff10;
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    margin-top: 20px;
+    width: 350px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+button {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #1e90ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1c7ed6;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+#res {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #ffd700;
+}
